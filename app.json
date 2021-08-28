@@ -1,0 +1,7 @@
+{
+    "name": "Heroku Telegram Bot API",
+    "description": "Quick deploy your own telegram bot API server on heroku",
+    "repository": "https://github.com/AbelChrist/telegram-bot-api-server",
+    "logo": "https://telegram.org/img/t_logo.svg",
+    "keywords": ["heroku", "telegram", "api"]
+  }
