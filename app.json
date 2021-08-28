@@ -3,5 +3,14 @@
     "description": "Quick deploy your own telegram bot API server on heroku",
     "repository": "https://github.com/AbelChrist/telegram-bot-api-server",
     "logo": "https://telegram.org/img/t_logo.svg",
-    "keywords": ["heroku", "telegram", "api"]
+    "keywords": ["heroku", "telegram", "api"],
+    "env": {
+        "TELEGRAM_API_ID": {
+            "value": "xxx"
+        },
+        "TELEGRAM_API_HASH": {
+            "value": "xxx"
+        }
+    },
+    "stack": "container"
   }
