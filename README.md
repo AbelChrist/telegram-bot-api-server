@@ -1,5 +1,12 @@
-set .env file or in environment variables:
+# Host your own telegram "local" api server to heroku
+
+## Usage
+1. Have an heroku account (register in here heroku.com)
+2. Deploy the app [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbelChrist/telegram-bot-api-server)
+3. set environment variables in settings->config vars->reveal config vars with key and value:
+```.env
 TELEGRAM_API_ID=xxx
 TELEGRAM_API_HASH=xxx
+```
+Note: Replace the `xxx` with api_id and api_hash that was obtained from https://core.telegram.org/api/obtaining_api_id
 
-Get api_id and api_hash in https://core.telegram.org/api/obtaining_api_id
