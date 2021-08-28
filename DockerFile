@@ -1,0 +1,7 @@
+FROM aceztea/telegram-bot-api:latest
+
+RUN mkdir -p app
+
+WORKDIR /app
+
+RUN mkdir -p telegram-bot-api
